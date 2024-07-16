@@ -1,13 +1,13 @@
-import { header } from './layout/header'
-import { footer } from './layout/footer'
-import { main } from './layout/main'
+import { Header } from './layout/Header.jsx'
+import { Footer } from './layout/Footer.jsx'
+import { Main } from './layout/Main.jsx'
 
 function App() {
 	return (
 		<>
-			<header />
-			<main />
-			<footer />
+			<Header />
+			<Main />
+			<Footer />
 		</>
 	)
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import { Movies } from '../components/Movies'
 import { Search } from '../components/Search'
 import { Preloader } from '../components/Preloader'
-class main extends React.Component {
+class Main extends React.Component {
 	state = {
 		movies: [],
 	}
@@ -20,12 +20,12 @@ class main extends React.Component {
 	render() {
 		const { movies } = this.state
 		return (
-			<main className='container content'>
+			<Main className='container content'>
 				<Search SearchMovies={this.SearchMovies} />
 				{movies.length ? <Movies movies={this.state.movies} /> : <Preloader />}
-			</main>
+			</Main>
 		)
 	}
 }
 
-export { main }
+export { Main }

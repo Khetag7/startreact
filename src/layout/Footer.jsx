@@ -1,7 +1,7 @@
-function footer() {
+function Footer() {
 	return (
-		<footer className='page-footer blue'>
-			<div className='footer-copyright'>
+		<Footer className='page-Footer blue'>
+			<div className='Footer-copyright'>
 				<div className='container'>
 					© {new Date().getFullYear()} Copyright Text
 					<a className='grey-text text-lighten-4 right' href='#!'>
@@ -9,8 +9,8 @@ function footer() {
 					</a>
 				</div>
 			</div>
-		</footer>
+		</Footer>
 	)
 }
 
-export { footer }
+export { Footer }

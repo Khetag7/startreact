@@ -1,4 +1,4 @@
-function header() {
+function Header() {
 	return (
 		<nav className='blue lighten-2'>
 			<div className='nav-wrapper'>
@@ -15,4 +15,4 @@ function header() {
 	)
 }
 
-export { header }
+export { Header }
