@@ -1,13 +1,13 @@
-import { Header } from './layout/Header'
-import { Footer } from './layout/Footer'
-import { Main } from './layout/Main'
+import { header } from './layout/header'
+import { footer } from './layout/footer'
+import { main } from './layout/main'
 
 function App() {
 	return (
 		<>
-			<Header />
-			<Main />
-			<Footer />
+			<header />
+			<main />
+			<footer />
 		</>
 	)
 }
