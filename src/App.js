@@ -1,6 +1,6 @@
-import { Header } from './layout/Header.jsx'
-import { Footer } from './layout/Footer.jsx'
-import { Main } from './layout/Main.jsx'
+import { Header } from './layout/Header';
+import { Footer } from './layout/Footer';
+import { Main } from './layout/Main';
 
 function App() {
 	return (
@@ -9,7 +9,7 @@ function App() {
 			<Main />
 			<Footer />
 		</>
-	)
+	);
 }
 
-export default App
+export default App;
